@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>LP Desarrollador Web</title>
+    
+    
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/LP/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Juan Esteban </span>, Desarrollador de software</h2>
+                <p class="descripcion">hola gracias por ingresar a mi Portafolio, </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="/img/Captura de pantalla 2024-06-24 220947.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Juan Esteban David</span> </h2>
+            <h3>Desarrollador de software</h3>
+            <p>con más de 9 años de experiencia en los sectores financiero y tecnológico, destacándome por mi capacidad de adaptación a entornos dinámicos y por un enfoque estratégico en la resolución de problemas. Mi trayectoria incluye servicios bancarios, tecnología financiera, desarrollo de software y automatización de procesos. Poseo una combinación sólida de habilidades técnicas y analíticas, que me permiten liderar proyectos de automatización, optimizar procesos operativos y garantizar una gestión eficiente de transacciones financieras.</p>
+            
+            
+            <!--
+            <a href="#">Descargar CV</a>
+            <script src="script.js"></script> -->
+            
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Con mi experiencia en desarrollo web, me he enfocado en crear sitios web funcionales y atractivos utilizando tecnologías como HTML, CSS, JavaScript y React. !</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Python</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>Data</li>
+                </ul>
+                <p>he utilizado en el desarrollo de soluciones automatizadas, análisis de datos y procesamiento de información. Con su gran capacidad para trabajar con bibliotecas como pandas, numpy y matplotlib</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Power Apps</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Power Apps me permite crear aplicaciones personalizadas sin necesidad de escribir código complejo. He utilizado esta plataforma para desarrollar soluciones de automatización interna, mejorando la eficiencia de los procesos empresariales</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>SQL</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Con SQL, he gestionado bases de datos, realizado consultas  y optimizado la manipulación de grandes volúmenes de datos. He utilizado SQL para crear bases de datos, generar reportes</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Conocimientos Financieros</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Mi experiencia en el sector financiero me ha permitido desarrollar un sólido entendimiento de los procesos y conceptos clave en la gestión de finanzas empresariales. A lo largo de mi carrera, he trabajado en la optimización de flujos de efectivo, la conciliación bancaria y el análisis de transacciones financieras</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Gestión de Proyectos Financieros</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>A través de mi experiencia en diferentes proyectos de optimización de procesos financieros, he trabajado en la mejora de flujos de trabajo y la implementación de soluciones tecnológicas que permiten una gestión más ágil y eficiente de los recursos financieros.</p>
+            </div>
+        </div>
+    </section>
+          <!-- HABILIDADES -->
+        <div class=" contenedor-skills" id ="skills_1">
+            <h3>HABILIDADES TECNICAS </h3>
+            <div class="skills"> 
+                <div class="info">
+                    <p><span class="lista"></span> Lenguajes de Programación: Python, JavaScript, VBA </p>
+
+                    <p><span class="lista"></span> Herramientas: Power BI, SQL, Power Apps, Power Automate </p>
+
+                    <p><span class="lista"></span> Metodologías: Scrum, RPA, Ciencia de Datos </p>
+
+                    <p><span class="lista"></span> Desarrollo Web: HTML, CSS, React </p>
+
+                    
+
+                </div>
+            </div>
+              <!-- PORTAFOLIO -->
+               <section id="Portafolio"></section>
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+          
